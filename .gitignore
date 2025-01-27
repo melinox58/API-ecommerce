@@ -1,0 +1,9 @@
+# Ignorer le dossier des livrables
+/livrable
+
+# Ignorer le fichier .env
+/.env
+
+/docker-compose.yml
+/Config
+/models/db.js
