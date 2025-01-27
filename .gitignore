@@ -1,9 +1,7 @@
 # Ignorer le dossier des livrables
-/livrable
+/Livrables
 
 # Ignorer le fichier .env
 /.env.local
 
 /docker-compose.yml
-/Dockerfile
-/Config
