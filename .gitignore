@@ -2,7 +2,8 @@
 /livrable
 
 # Ignorer le fichier .env
-/.env
+/.env.local
 
 /docker-compose.yml
+/Dockerfile
 /Config

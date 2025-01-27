@@ -4,10 +4,10 @@ const mysql = require('mysql2');
 const { MongoClient } = require('mongodb');
 
 // Récupération des variables d'environnement pour MongoDB
-const mongoUser = process.env.MONGO_USER || 'mel';
-const mongoPassword = process.env.MONGO_PASSWORD || 'rootmel';
-const mongoCluster = process.env.MONGO_CLUSTER || 'bootcamp.yrsi3.mongodb.net';
-const mongoDbName = process.env.MONGODB_DB || 'ecommerce';
+const mongoUser = process.env.MONGO_USER;
+const mongoPassword = process.env.MONGO_PASSWORD;
+const mongoCluster = process.env.MONGO_CLUSTER;
+const mongoDbName = process.env.MONGODB_DB;
 
 // Construction de l'URL de connexion MongoDB
 const mongoUrl = `mongodb+srv://${mongoUser}:${mongoPassword}@${mongoCluster}/${mongoDbName}?retryWrites=true&w=majority`;
